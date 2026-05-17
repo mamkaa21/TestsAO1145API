@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using TestsAO1145API.DB;
+using TestsAO1145API;
+
 using static TestsAO1145API.Controllers.AuthController;
 
 var builder = WebApplication.CreateBuilder(args);

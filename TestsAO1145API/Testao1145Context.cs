@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
 
-namespace TestsAO1145API.DB;
+namespace TestsAO1145API;
 
 public partial class Testao1145Context : DbContext
 {

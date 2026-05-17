@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TestsAO1145API.DB;
+namespace TestsAO1145API;
 
 public partial class Class
 {

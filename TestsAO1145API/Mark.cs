@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TestsAO1145API.DB;
+namespace TestsAO1145API;
 
-public partial class Aswer
+public partial class Mark
 {
     public int Id { get; set; }
 
-    public string? RightAnswer { get; set; }
-
-    public string? LieAnswer { get; set; }
+    public int? Number { get; set; }
 
     public virtual ICollection<Test> Tests { get; set; } = new List<Test>();
 }
